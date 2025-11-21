@@ -52,6 +52,18 @@ header a {
   color: inherit;
 }
 
+/* Nav Bar styles with dropdown toggle */
+
+nav {
+  position: absolute; /* double check how absolute position works */
+  background-color: #fff;
+  width: 100%;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  left: 0px;
+  display: none;
+}
+
 /* Main content */
 main {
   background-color: lightblue;
