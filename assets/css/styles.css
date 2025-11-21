@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
 /* CSS class for oswald
 
  <weight>: Use a value from 200 to 700
@@ -33,6 +34,8 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: "Lato", sans-serif;
+
 }
 
 /* Header */
