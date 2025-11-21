@@ -90,11 +90,6 @@ main {
   margin-top: 47px;
 }
 
-/* Footer */
-footer {
-  background-color: orange;
-}
-
 h1 {
   font-family: "Oswald";
   text-transform: uppercase;
@@ -114,4 +109,34 @@ h1 {
 
 .active {
   border-bottom: 1px solid #3a3a3a;
+}
+
+/* Footer */
+footer {
+  background-color: orange;
+}
+
+/* Media query: larger than 768px */
+@media screen and (min-width: 768px) {
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding right: 1rem;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu > li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+    
+  }
 }
