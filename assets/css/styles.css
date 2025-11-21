@@ -87,6 +87,7 @@ main {
   /* Make the main element take up any surplus space available pushing the footer down. 
     rememeber that BODY flex-direction is column, so it expand down rather than inline */
   flex: 1 0 auto;
+  margin-top: 47px;
 }
 
 /* Footer */
