@@ -83,7 +83,6 @@ nav {
 
 /* Main content */
 main {
-  background-color: lightblue;
   /* Make the main element take up any surplus space available pushing the footer down. 
     rememeber that BODY flex-direction is column, so it expand down rather than inline */
   flex: 1 0 auto;
@@ -109,6 +108,14 @@ h1 {
 
 .active {
   border-bottom: 1px solid #3a3a3a;
+}
+
+/*  Hero section */
+
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
