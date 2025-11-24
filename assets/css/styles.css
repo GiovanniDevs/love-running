@@ -288,8 +288,16 @@ main {
 }
 
 /* MEDIA QUERY ----------------------------------------------- */
-/* Media query: tablets and larger than 768px */
+/* Media query for landscape phones or larger, addressing gallery photos masonery disposition */
 
+@media screen and (min-width: 576px) {
+  #photos {
+    column-count: 2;
+    column-gap: 0;
+  }
+}
+
+/* Media query: tablets and larger than 768px */
 @media screen and (min-width: 768px) {
   /* Header */
   nav {
@@ -316,6 +324,12 @@ main {
     font-size: 280%;
     line-height: 75px;
     margin: 0 0.5rem;
+  }
+
+  /* Gallery */
+  #photos {
+    column-count: 3;
+    column-gap: 0;
   }
 
   /* Main content */
@@ -374,6 +388,12 @@ main {
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
+  }
+
+  /* Gallery */
+  #photos {
+    column-count: 4;
+    column-gap: 0;
   }
 }
 
